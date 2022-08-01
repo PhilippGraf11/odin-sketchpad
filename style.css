@@ -7,12 +7,14 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 75px;
+    
   }
   
   .container>div {
     border: 1px solid rgb(0, 0, 0);
     height: 40px;
     width: 40px;
+    transition: ease 500s all
   }
   
   .container>div:nth-child(16n + 1) {
@@ -21,8 +23,8 @@
     height: 0;
   }
 
- .farbe:hover {
+#farbe:hover {
+  background-color: blue;
+    transition: ease 0s all;
 
-  background-color: black;
- }
-  
+}
