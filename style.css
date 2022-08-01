@@ -14,7 +14,7 @@
     border: 1px solid rgb(0, 0, 0);
     height: 40px;
     width: 40px;
-    transition: ease 500s all
+    transition: ease 99999999999999999s all
   }
   
   .container>div:nth-child(16n + 1) {
